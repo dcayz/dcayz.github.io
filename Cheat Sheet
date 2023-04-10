@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <div ref="HTML & CSS Cheat Sheet"></div>
+    <title>HMTL/CSS Cheat Sheet</title>
+    <link href="./resources/styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <section class="Header">
+      <h1>HTML Cheat Sheet</h1>
+
+    </section>
+
+    <section class="HTML Table Table">
+        <table>
+            <thead name="HTML Table Header">
+              <tr>
+                <td>Tag</td>
+                <td>Name</td>
+                <td>Function</td>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr>
+                <td>&lt;a&gt;</td>
+                <td>Anchor</td> 
+                <td>Used to create hyperlinks in an HTML document</td>
+              </tr> 
+              <tr>
+                <td>&lt;target&gt;</td>
+                <td>Target</td> 
+                <td>The target attribute on an anchor element specifies
+                    where a hyperlink should be opened. <br> A target value of "_blank" 
+                    will tell the browser to open the hyperlink in a new tab</td>
+              </tr>               
+              <tr>
+                <td>&lt;head&gt;</td>
+                <td>Head</td> 
+                <td>Contains general information about the page 
+                    that isn't displayed on the page itself</td>
+              </tr>  
+              <tr>
+                <td>&lt;body&gt;</td>
+                <td>Body</td> 
+                <td>Contains all the text and data which is presented
+                    to the site's visitors
+                </td>
+              </tr>  
+              <tr>
+                <td>&lt;title&gt;</td>
+                <td>Title</td> 
+                <td>Contained within the head, used to name the browser tab</td>
+              </tr>  
+              <tr>
+                <td>&lt;li&gt;</td>
+                <td>List</td> 
+                <td>Creates a list</td>
+              </tr>  
+              <tr>
+                <td>&lt;ol&gt;</td>
+                <td>Ordered List</td> 
+                <td>Creates a numbered/ordered list within a List element</td>
+              </tr>  
+              <tr>
+                <td>&lt;ul&gt;</td>
+                <td>Unordered List</td> 
+                <td>Creates a unordered list within a List element</td>
+              </tr>  
+              <tr>
+                <td>&lt;img&gt;</td>
+                <td>Image</td> 
+                <td>When used with src and a linked file or hyperlink,
+                    adds an image to a page.<br> Add alt text by alt= and
+                    a quote explaining the image
+                </td>
+              </tr>  
+              <tr>
+                <td>&lt;video&gt;</td>
+                <td>Video</td> 
+                <td>When used with src and a linked file or hyperlink,
+                    adds an video to a page. <br>Add controls in the opening
+                    bracket and 'Video not supported' in between
+              </tr>
+              <tr>
+                <td>&lt;embed&gt;</td>
+                <td>Embed</td> 
+                <td>Can be used to implement any type of media. Self closing
+                    tag.
+                </td>
+              </tr> 
+              <tr>
+                <td>&lt;figure&gt;</td>
+                <td>Figure</td> 
+                <td>Used to encapsulate media, such as an image,
+                    diagram, or video
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;figcaption&gt;</td>
+                <td>Figure Caption</td> 
+                <td>Used to describe the media within the figure 
+                    element.
+                </td>
+              </tr>  
+              <tr>
+                <td>&lt;h1&gt;~&lt;h6&gt;</td>
+                <td>Headers</td> 
+                <td>Six different levels of heading elements, from H1
+                    to H6
+                </td>
+              </tr>  
+              <tr>
+                <td>&lt;p&gt;</td>
+                <td>Paragraph</td> 
+                <td>Contains and displays a block of text</td>
+              </tr> 
+              <tr>
+                <td>&lt;strong&gt;</td>
+                <td>Strong</td> 
+                <td>Highlights important text. Browswers
+                    normally render this text in <strong>bold</strong>
+                </td>
+              </tr> 
+              <tr>
+                <td>&lt;em&gt;</td>
+                <td>Emphasis</td> 
+                <td>Emphasizes text, in most browsers appearing
+                    as italics
+                </td>
+              </tr> 
+              <tr>
+                <td>id="text"</td>
+                <td>Unique ID</td> 
+                <td>Allows you to assign a specific id to
+                    different elements in order to style with
+                    CSS or JavaScript
+                </td>
+              </tr> 
+              <tr>
+                <td>&lt;section&gt;</td>
+                <td>Section</td> 
+                <td>Defines different elements (or chapters) within a document</td>
+              </tr> 
+              <tr>
+                <td>&lt;article&gt;</td>
+                <td>Article</td> 
+                <td>Holds content that makes sense on its own, such as an article 
+                    or blog post etc.
+                </td>
+              </tr> 
+              <tr>
+                <td>&lt;aside&gt;</td>
+                <td>Aside</td> 
+                <td>Used to mark additional information that enhances another
+                    element e.g. a quote
+                </td>
+              </tr> 
+              <tr>
+                <td>&lt;table&gt;</td>
+                <td>Table</td>
+                <td>The wrapper element for all HTML tables</td>
+              </tr>
+              <tr>
+                <td>&lt;thead&gt;</td>
+                <td>Table Head</td>
+                <td>The set of rows defining the column headers in a table</td>
+              </tr>
+              <tr> 
+                <td>&lt;tbody&gt;</td>
+                <td>Table Body</td>
+                <td>The set of rows containing actual table data</td>
+              </tr>
+              <tr>
+                <td>&lt;tr&gt;</td>
+                <td>Table Row</td>
+                <td>The table row container</td>
+              </tr>
+              <tr>
+                <td>&lt;td&gt;</td>
+                <td>Table</td>
+                <td>The table row container</td>
+              </tr>
+              <tr>
+                <td>&lt;tfoot&gt;</td>
+                <td>Table</td>
+                <td>The set of rows defining the footer in a table</td>
+
+
+              </tr>
+            </tbody>
+        </table>
+      <br>
+    </section>  
+  </body>
+</html>
