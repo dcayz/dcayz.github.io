@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(249, 254, 255);
+}
+h1 {
+  font-family: "Oswald", serif;
+  font-style: italic;
+  text-align: center;
+  background-image: linear-gradient(blue, pink);
+  color: whitesmoke;
+}
+td {
+    background-color: rgb(250, 214, 214);
+    font-family: "Anuphan";
+}
+tr {
+    color: black;
+}
+table {
+    text-align: center;
+}
